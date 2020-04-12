@@ -15,7 +15,7 @@ public class RequestDispatcher {
                 return new CommandHandler(update).handle();
             }
             return new TextMessageHandler(update).handle();
-        } catch (Exception e){
+        } catch (Exception e) {
             return new SendMessage().setChatId(Utils.getIdFromUpdate(update)).setText("Exception caught, contact administrator to fix problem");
         }
     }
