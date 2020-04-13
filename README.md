@@ -1,3 +1,3 @@
 # HomeworkBot
 
-@@Homework_apmath_bot
+@Homework_apmath_bot
